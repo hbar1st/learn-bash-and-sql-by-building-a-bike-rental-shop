@@ -106,3 +106,6 @@ __vsc_prompt_cmd_original
 man [[
 man like
 help [[
+./bike_shop.sh
+ls --color=auto
+./bike-shop.sh
