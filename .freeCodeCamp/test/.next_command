@@ -77,3 +77,4 @@ chmod +x bike-shop.sh
 ./bike-shop.sh
 pg_dump -U freecodecamp -d bikes -cC --insert > bikes.sql
 more bikes.sql
+./bike-shop.sh
