@@ -103,3 +103,6 @@ __vsc_prompt_cmd_original
 __vsc_prompt_cmd_original
 [[ 11 =~ ^[0-9]+$ ]]
 [[ ! 11 =~ ^[0-9]+$ ]]
+man [[
+man like
+help [[
