@@ -58,7 +58,8 @@ RENT_MENU()
       # if not available
       if [[ -z $BIKE_AVAILABILITY ]]
       then
-      # send to main menu
+        # send to main menu
+        MAIN_MENU "That bike is not available."
       fi
     fi
   fi
