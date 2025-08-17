@@ -79,6 +79,7 @@ RENT_MENU()
         fi
 
         # get customer_id
+        CUSTOMER_ID=$($PSQL "select customer_id from customers where phone='$PHONE_NUMBER'")
         # insert bike rental
         # set bike availability to false
         # get bike info
