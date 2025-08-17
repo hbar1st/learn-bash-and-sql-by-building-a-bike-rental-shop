@@ -77,6 +77,12 @@ RENT_MENU()
           # insert new customer
           INSERT_CUSTOMER_RESULT=$($PSQL "insert into customers(name, phone) values('$CUSTOMER_NAME', '$PHONE_NUMBER')")
         fi
+
+        # get customer_id
+        # insert bike rental
+        # set bike availability to false
+        # get bike info
+        # send to main menu
       fi
     fi
   fi
