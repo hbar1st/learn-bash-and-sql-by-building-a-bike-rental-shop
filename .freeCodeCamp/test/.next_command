@@ -121,3 +121,6 @@ echo '28 | Mountain'
 echo '28 | Mountain'
 echo '28 | Mountain'
 echo '28 | Mountain'
+echo '28 | Mountain'
+./bike_shop.sh
+./bike-shop.sh
