@@ -89,8 +89,8 @@ RENT_MENU()
 
         # get bike info
         BIKE_INFO=$($PSQL "select size,type from bikes where bike_id=$BIKE_ID_TO_RENT")
-        echo $BIKE_INFO
-        
+        echo $BIKE_INFO | sed 's/ |/"/'
+
         # send to main menu
       fi
     fi
