@@ -154,7 +154,8 @@ RETURN_MENU()
           SET_TO_TRUE_RESULT=$($PSQL "update bikes set available=true where bike_id=$BIKE_ID_TO_RETURN")
 
           # send to main menu
-
+          MAIN_MENU "Thank you for returning your bike."
+          
         fi
       fi
     fi
